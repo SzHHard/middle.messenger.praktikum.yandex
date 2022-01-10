@@ -26,4 +26,4 @@
 
 ### Прилигаются следующие ссылки:
 0. ~ Netlify: https://middlebestmessanger.netlify.app
-1. ~ Original pull request (sprint_1 branch): 
+1. ~ Pull request (sprint_1 branch): https://github.com/SzHHard/middle.messenger.praktikum.yandex/pull/1
