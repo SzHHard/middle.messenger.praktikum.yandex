@@ -1,0 +1,134 @@
+.chatPage {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    width: 850px;
+    height: 800px;
+    margin-top: 30px;
+    align-self: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .headPanel {
+        border-bottom: 1px solid #dce1e6;
+        border-top: 1px solid #dce1e6;
+        margin-left: 20px;
+        margin-right: 10px;
+        display: flex;
+        height: 65px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        .backLink {
+            display: flex;
+            align-items: center;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            cursor: pointer;
+
+            color: #636363;
+            img {
+                width: 40px;
+                height: 40px;
+                transform: rotate(-180deg);
+            }
+        }
+        .name {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        .companionAvaAndMore {
+            margin-right: 15px;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .companionAva {
+                height: 50px;
+                width: 50px;
+                border-radius: 300px;
+            }
+        }
+    }
+
+    .companionMessage {
+        font-size: 18px;
+        align-self: start;
+        padding: 10px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        max-width: 38%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .myMessage {
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 25px;
+        align-self: end;
+        max-width: 38%;
+        border-radius: 10px;
+        background: rgba(40, 229, 255, 0.17);
+    }
+
+    .footerPanel {
+        height: 80px;
+        background: #fafbfc;
+        border: 1px solid #e7e8ec;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        position: absolute;
+        bottom: 0;
+
+        .newMessageContainer {
+            width: 80%;
+
+            input {
+                padding-left: 30px;
+                background: #ffffff;
+                border: 1px solid #d3d9de;
+                border-radius: 15px;
+                height: 55px;
+                width: 95%;
+                font-weight: 300;
+                font-size: 23px;
+                color: rgba(0, 0, 0, 0.6);
+
+            }
+            input:focus {
+                outline: none;
+            }
+        }
+        .chooseFile {
+            cursor: pointer;
+            width: 45px;
+            height: 45px;
+        }
+        .sendMessage {
+            transform: rotate(-90deg);
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+        }
+    }
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}

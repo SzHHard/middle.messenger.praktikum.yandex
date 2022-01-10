@@ -1,0 +1,205 @@
+$textColor: #581616;
+
+.toChats {
+    position: absolute;
+    left: 58px;
+    top: 122px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4374d2;
+}
+
+.changeDataContainer {
+    font-family: Montserrat;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            background: #ef5da8;
+            border-radius: 20px;
+            width: 330px;
+            height: 60px;
+            border: none;
+            cursor: pointer;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+
+    .avatarAndNickname {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 158px;
+        width: 90vw;
+        font-size: 36px;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: $textColor;
+        .balancerLeft {
+            display: flex;
+            align-items: center;
+
+            p {
+                margin-left: 20px;
+                margin-top: 35px;
+            }
+            width: 40vw;
+            height: 100%;
+        }
+        .balancerRight {
+            width: 100px;
+            height: 100%;
+        }
+        img {
+            cursor: pointer;
+
+            margin-right: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 500px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5));
+        }
+        img:hover {
+            -webkit-filter: brightness(70%);
+            transition: all 0.5s ease;
+        }
+        .imgWrapper {
+            width: 150px;
+            margin-right: 0;
+            position: relative;
+        }
+        .imgWrapper:hover:before {
+            top: 61px;
+            left: 36px;
+            z-index: 1;
+            position: absolute;
+            white-space: pre;
+            content: "Поменять \a аватар";
+            color: white;
+            font-size: 14px;
+            transition: all 0.5s ease;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            text-align: center;
+            pointer-events: none;
+        }
+    }
+
+    .fields {
+        margin-top: 25px;
+        margin-bottom: 80px;
+        margin-left: -100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .field {
+            margin-top: 10px;
+            width: 700px;
+            display: flex;
+            color: $textColor;
+            border-bottom: 1px solid #a680a4;
+            justify-content: space-between;
+            align-items: center;
+            height: 45px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+
+            .right {
+                .textInput {
+                    padding: 10px;
+                    font-size: 18px;
+                    border: 1px solid #000000;
+                    box-sizing: border-box;
+                    //box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 15px;
+                    width: 319px;
+                    height: 31px;
+                    border: 1px solid #7b7777;
+                    border-radius: 15px;
+                    padding-left: 19px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                }
+                .textInput:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        margin-top: 50px;
+        margin-left: 60px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        height: 60px;
+        display: flex;
+        align-items: end;
+        width: 80vw;
+        justify-content: space-between;
+        .bottomLeft {
+            width: 35vw;
+            border-bottom: 1px solid #a680a4;
+            display: flex;
+            justify-content: start;
+            a {
+                text-decoration: none;
+                text-shadow: 0px 1px 0 rgb(166, 128, 164), 0px -1px 0 rgb(166, 128, 164), 1px 0px 0 rgb(166, 128, 164),
+                    -1px 0px 0 rgb(166, 128, 164), 1px 1px 0 rgb(166, 128, 164), 1px -1px 0 rgb(166, 128, 164),
+                    -1px 1px 0 rgb(166, 128, 164), -1px -1px 0 rgb(166, 128, 164);
+                -webkit-text-shadow: 0px 1px 0 rgb(166, 128, 164), 0px -1px 0 rgb(166, 128, 164),
+                    1px 0px 0 rgb(166, 128, 164), -1px 0px 0 rgb(166, 128, 164), 1px 1px 0 rgb(166, 128, 164),
+                    1px -1px 0 rgb(166, 128, 164), -1px 1px 0 rgb(166, 128, 164), -1px -1px 0 rgb(166, 128, 164);
+                -moz-text-shadow: 0px 1px 0 rgb(166, 128, 164), 0px -1px 0 rgb(166, 128, 164),
+                    1px 0px 0 rgb(166, 128, 164), -1px 0px 0 rgb(166, 128, 164), 1px 1px 0 rgb(166, 128, 164),
+                    1px -1px 0 rgb(166, 128, 164), -1px 1px 0 rgb(166, 128, 164), -1px -1px 0 rgb(166, 128, 164);
+                font-size: 24px;
+                color: #0400bf;
+            }
+        }
+        .bottomRight {
+            display: flex;
+            justify-content: end;
+            width: 35vw;
+            border-bottom: 1px solid #a680a4;
+            a {
+                text-decoration: none;
+                text-shadow: 0px 1px 0 rgb(166, 128, 164), 0px -1px 0 rgb(166, 128, 164), 1px 0px 0 rgb(166, 128, 164),
+                    -1px 0px 0 rgb(166, 128, 164), 1px 1px 0 rgb(166, 128, 164), 1px -1px 0 rgb(166, 128, 164),
+                    -1px 1px 0 rgb(166, 128, 164), -1px -1px 0 rgb(166, 128, 164);
+                -webkit-text-shadow: 0px 1px 0 rgb(166, 128, 164), 0px -1px 0 rgb(166, 128, 164),
+                    1px 0px 0 rgb(166, 128, 164), -1px 0px 0 rgb(166, 128, 164), 1px 1px 0 rgb(166, 128, 164),
+                    1px -1px 0 rgb(166, 128, 164), -1px 1px 0 rgb(166, 128, 164), -1px -1px 0 rgb(166, 128, 164);
+                -moz-text-shadow: 0px 1px 0 rgb(166, 128, 164), 0px -1px 0 rgb(166, 128, 164),
+                    1px 0px 0 rgb(166, 128, 164), -1px 0px 0 rgb(166, 128, 164), 1px 1px 0 rgb(166, 128, 164),
+                    1px -1px 0 rgb(166, 128, 164), -1px 1px 0 rgb(166, 128, 164), -1px -1px 0 rgb(166, 128, 164);
+                font-size: 24px;
+                color: #0400bf;
+            }
+        }
+    }
+}

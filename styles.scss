@@ -1,0 +1,35 @@
+
+@import './src/pages/authScreens/registerlogin.scss';
+@import './src/pages/chats/chatsStyles.scss';
+@import './src/pages/ErrorScreens/404and500Styles.scss';
+@import './src/modules/Header/headerStyles.scss';
+@import './src/pages/userSettings/settingsStyles.scss';
+@import './src/modules/modal/modal.scss';
+@import './src/pages/userSettings/changeAvatarModal/contentStyles.scss';
+@import './src/pages/userSettings/changeData/changeData.scss';
+@import './src/modules/Header/accountSettings/modal.scss';
+@import './src/pages/chatpage/chat.scss';
+//$primary: $fromLogin;
+
+
+body{
+    background-color: #FAEDFC;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.mainContent{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.root{
+   
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "middlefrontendmodule1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "dev": "parcel index.html --port 3000 --dist-dir build",
+    "build": "parcel build index.html --dist-dir build && echo '/* /index.html  200' | cat >build/_redirects"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "parcel-transformer-ejs": "^0.2.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
