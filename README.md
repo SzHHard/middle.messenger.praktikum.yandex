@@ -25,5 +25,5 @@
 
 
 ### Прилигаются следующие ссылки:
-0. ~ Netlify: https://mfbestmessanger.netlify.app
+0. ~ Netlify: https://middlebestmessanger.netlify.app
 1. ~ Original pull request (sprint_1 branch): 
